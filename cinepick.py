@@ -11,8 +11,9 @@ from io import BytesIO
 # LOADING DATASET #
 ###################
 
-file_path = "https://storage.cloud.google.com/cine_ethics/data/summarized_data.csv"
+#file_path = "https://storage.cloud.google.com/cine_ethics/data/summarized_data.csv"
 #file_path = os.getenv("CINE_PICK_TABLE")
+file_path = "raw_data/cine_pick_table.csv"
 df = pd.read_csv(file_path, sep=',')
 
 
