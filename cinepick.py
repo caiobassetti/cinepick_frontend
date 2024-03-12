@@ -11,7 +11,8 @@ from io import BytesIO
 # LOADING DATASET #
 ###################
 
-file_path = os.getenv("CINE_PICK_TABLE")
+file_path = "https://storage.cloud.google.com/cine_ethics/data/summarized_data.csv"
+#file_path = os.getenv("CINE_PICK_TABLE")
 df = pd.read_csv(file_path, sep=',')
 
 
@@ -212,8 +213,8 @@ if len(selected_indices) > 2:
                             # RUNNING APPLICATION #
                             #######################
 
-#url = "https://image-5e4uq44i6a-ez.a.run.app"
-url = "http://127.0.0.1:8000"
+url = "https://image-5e4uq44i6a-ez.a.run.app"
+#url = "http://127.0.0.1:8000"
 
 
 # When 'Merge Synopsis' button is pushed
