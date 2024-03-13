@@ -54,7 +54,7 @@ st.markdown(javascript_code, unsafe_allow_html=True)
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] > .main {
-    background-image: url("https://trello.com/1/cards/65e743e6caf555f37ac39d9b/attachments/65eeeff70aef81df2911f2fe/download/CinePickSmall_15.png");
+    background-image: url("https://kb.positivekeyword.com/wp-content/uploads/2024/03/CinePickSmall_15.png");
     background-size: 75vw 100vh;  # This sets the size to cover 100% of the viewport width and height
     background-position: center;
     background-repeat: no-repeat;
